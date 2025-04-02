@@ -1,13 +1,12 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
-import Bai1_Lab6 from "./Bai1_Lab6";
-import { Provider } from "react-redux";
 import { store } from "../store/store";
+import { Provider } from "react-redux";
 
-export default function index() {
+export default function Bai1_Lab5() {
   return (
     <Provider store={store}>
-      <Bai1_Lab6 />
+      <Text>Bai1_Lab5</Text>
     </Provider>
   );
 }
