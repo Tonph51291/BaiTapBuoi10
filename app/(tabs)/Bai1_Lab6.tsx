@@ -1,13 +1,13 @@
 import { Button, StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { RootState } from "../store/store";
+import { RootState } from "../../store/store";
 import {
   binhPhuong,
   decrement,
   increment,
   RESET_COUNTER,
-} from "../store/couterSlide";
+} from "../../store/couterSlide";
 
 export default function Bai1_Lab6() {
   const dispatch = useDispatch();
